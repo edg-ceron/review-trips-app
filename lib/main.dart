@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:trip_app/description_place.dart';
 import 'package:trip_app/review_list.dart';
 import 'package:trip_app/gradient_back.dart';
+import 'header_appbar.dart';
 
 
 
@@ -27,9 +28,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('Hola mundo'),
-        ),
+        // appBar: AppBar(
+        //   title: Text('Hola mundo'),
+        // ),
         // body: Column(
         //   children: <Widget>[
         
@@ -43,7 +44,7 @@ class MyApp extends StatelessWidget {
                 ReviewList()
               ],
             ),
-            GradientBack(),
+            HeaderAppBar()
           ],
         ),
       ),

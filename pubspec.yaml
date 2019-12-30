@@ -72,6 +72,10 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
   assets:
     - assets/img/bahamas.jpg
+    - assets/img/bahamas_1.jpg
+    - assets/img/bahamas_2.jpg
+    - assets/img/bahamas_3.jpg
+    - assets/img/bahamas_4.jpg
     - assets/img/avatar_1.jpeg
     - assets/img/avatar_2.jpeg
     - assets/img/avatar_3.jpeg
