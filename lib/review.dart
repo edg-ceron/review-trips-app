@@ -8,7 +8,7 @@ class Review extends StatelessWidget {
 
 
 
-  // Review(this.pathImage, this.name, this.details, this.comment);
+  Review(this.pathImage, this.name, this.details, this.comment);
 
   @override
   Widget build(BuildContext context) {
