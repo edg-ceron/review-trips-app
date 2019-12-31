@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'content_trips.dart';
+import 'content_trips_cupertino.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ContentTrips()
+      home: ContentTripsCupertino()
     );
   }
 }
