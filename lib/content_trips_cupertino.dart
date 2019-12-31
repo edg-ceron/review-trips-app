@@ -11,17 +11,18 @@ class ContentTripsCupertino extends StatelessWidget {
     return Scaffold(
       bottomNavigationBar: CupertinoTabScaffold(
         tabBar: CupertinoTabBar(
+          activeColor: Colors.indigo,
           items: [
             BottomNavigationBarItem(
-                icon: Icon(Icons.home, color: Colors.indigo),
+                icon: Icon(Icons.home),
                 title: Text("")
             ),
             BottomNavigationBarItem(
-                icon: Icon(Icons.search, color: Colors.indigo),
+                icon: Icon(Icons.search),
                 title: Text("")
             ),
             BottomNavigationBarItem(
-                icon: Icon(Icons.person, color: Colors.indigo),
+                icon: Icon(Icons.person),
                 title: Text("")
             ),
           ],
