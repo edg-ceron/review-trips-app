@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class ButtonPrimary extends StatelessWidget {
   String buttonText = 'Navigate';
   ButtonPrimary(this.buttonText);
-  
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
