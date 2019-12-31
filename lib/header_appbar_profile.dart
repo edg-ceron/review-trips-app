@@ -83,7 +83,8 @@ class HeaderAppBarProfile extends StatelessWidget {
     final actionsIcons = Container(
       height: 80,
       margin: EdgeInsets.only(
-        top: 180.0
+        top: 180.0,
+        bottom: 10
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,

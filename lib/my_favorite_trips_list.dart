@@ -6,7 +6,10 @@ class MyFavoriteTripsList extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Container(
-      height: 450.0,
+      height: 550.0,
+      margin: EdgeInsets.only(
+        top: 280.0,
+      ),
       child: ListView(
         padding: EdgeInsets.all(10.0),
         scrollDirection: Axis.vertical,

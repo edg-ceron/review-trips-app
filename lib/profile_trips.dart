@@ -7,9 +7,10 @@ class ProfileTrips extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Stack(
+      alignment: Alignment.topCenter,
       children: <Widget>[
         HeaderAppBarProfile(),
-        // MyFavoriteTripsList()
+        MyFavoriteTripsList()
       ]
     );
   }
