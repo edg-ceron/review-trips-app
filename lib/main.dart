@@ -1,16 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:trip_app/description_place.dart';
-import 'package:trip_app/review_list.dart';
-import 'package:trip_app/gradient_back.dart';
-import 'header_appbar.dart';
 
-
+import 'content_trips.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
-  String descriptionDummy = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium fuga quasi omnis possimus officia! Consequuntur perspiciatis illo, perferendis ea assumenda necessitatibus tenetur laboriosam nisi, quidem alias enim accusantium velit quibusdam!';
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -27,27 +22,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        // appBar: AppBar(
-        //   title: Text('Hola mundo'),
-        // ),
-        // body: Column(
-        //   children: <Widget>[
-        
-        //   ],
-        // )
-        body: Stack(
-          children: <Widget>[
-            ListView(
-              children: <Widget>[
-                DescriptionPlace("Bahamas", 4, descriptionDummy),
-                ReviewList()
-              ],
-            ),
-            HeaderAppBar()
-          ],
-        ),
-      ),
+      home: ContentTrips()
     );
   }
 }
