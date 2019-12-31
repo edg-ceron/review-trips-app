@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:trip_app/my_favorite_trips_list.dart';
-
-import 'gradient_back.dart';
+import 'header_appbar_profile.dart';
+import 'my_favorite_trips_list.dart';
 
 class ProfileTrips extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Column(
+    return Stack(
       children: <Widget>[
-        GradientBack('Perfil'),
-        MyFavoriteTripsList()
+        HeaderAppBarProfile(),
+        // MyFavoriteTripsList()
       ]
     );
   }
