@@ -51,7 +51,7 @@ class _Signin extends State<SignIn> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(
-                "Bienvenido \n Review lugares App.",
+                "Bienvenido\nReview lugares App.",
                 style: TextStyle(
                   fontSize: 37.0,
                   fontFamily: "Lato",
